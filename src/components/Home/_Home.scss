@@ -1,0 +1,21 @@
+.home-container{
+    background-image: url(../../assets/hero.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .btn{
+        cursor: pointer;
+        background-color: rgb(189, 177, 177);
+        color: #000000;
+        border-radius: 20px;
+        width: 300px;
+        padding: 10px 50px;
+        text-align: center;
+    }
+}
