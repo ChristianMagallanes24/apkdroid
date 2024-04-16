@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Home = () => {
+const Home = ({ setShowNavbar }) => {
+  const handleEntrar = () => {
+    setShowNavbar(true);
+  };
+  
+
   return (
     <div className='home-container'>
-
- <button className='btn'><Link className='btn' to="/apk">Aplicaciones</Link></button>
-
+      <button  onClick={handleEntrar}>
+        <Link className='ov-btn-slide-right' to="/apk">Entrar</Link>
+      </button>
     </div>
   );
 };

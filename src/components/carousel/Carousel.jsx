@@ -19,13 +19,13 @@ const Carousel = () => {
     <div style={{ width: "80%", margin: "auto" }}>
       <Slider {...settings}>
         <div>
-          <img src="https://via.placeholder.com/800x300?text=Imagen+1" alt="Imagen 1" style={{ width: "100%" }} />
+          <img src="https://pm1.aminoapps.com/6754/49480cdd522822d5faea27126cafd723780488e9v2_hq.jpg" alt="Imagen 1" style={{ width: "100%" }} />
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x300?text=Imagen+2" alt="Imagen 2" style={{ width: "100%" }} />
+          <img src="https://www.fastpay.co.id/blog/wp-content/uploads/2023/10/oktober-week-1-artikel-7-800x300.png" alt="Imagen 2" style={{ width: "100%" }} />
         </div>
         <div>
-          <img src="https://via.placeholder.com/800x300?text=Imagen+3" alt="Imagen 3" style={{ width: "100%" }} />
+          <img src="https://gadgetmates.com/wp-content/uploads/2023/12/brawl-stars.png" alt="Imagen 3" style={{ width: "100%" }} />
         </div>
       </Slider>
     </div>

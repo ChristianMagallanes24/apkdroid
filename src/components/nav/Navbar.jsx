@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import myLogo from '../../assets/logo.webp';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        Mi App
+        <img className='logo-img' src={myLogo} alt="a" />
       </div>
       <ul className={`nav-links ${open ? 'active' : ''}`}>
         <li><Link to="/">Inicio</Link></li>

@@ -1,14 +1,72 @@
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 20px;
-    background-color: rgb(214, 213, 213);
-    width: 400px;
-    .btn-card{
-        color: black;
-        background-color: red;
+    background-color: #d6d5d5;  // Un gris suave
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  // Sombra sutil para dar profundidad
+    width: 200px;
+    margin: 20px auto;  // Centrado con margen vertical
+    padding: 20px;  // Espacio interno para no pegar el contenido a los bordes
+    text-align: center;  // Alinea el texto al centro para coherencia
+    .card-title{
+        font-family: "Nunito", sans-serif;
+        font-size: 23px;
+        font-weight: bold;
+        color: #ff4500;
+    }
+    .card-text{
+        font-family: "Nunito", sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+    img {
+        width: 100%;  // Asegura que la imagen no exceda el ancho de la card
+        height: auto;  // Mantiene la proporción de la imagen
+        border-radius: 15px;  // Redondea las esquinas de la imagen
+    }
+
+    .btn-card {
+        color: white;
+        background-color: #ff4500;  // Un rojo-anaranjado más vibrante
+        border: none;  // Elimina el borde por defecto
         border-radius: 10px;
-        padding: 5px 15px;
+        padding: 10px 20px;  // Más espacio interno para mejor clic
+        text-transform: uppercase;  // Texto en mayúsculas para destacar
+        font-weight: bold;  // Texto en negrita
+        text-decoration: none;  // Elimina subrayado de los enlaces
+        margin-top: 15px;  // Espacio sobre el botón
+        cursor: pointer;  // Cursor en forma de mano al pasar sobre el botón
+        transition: background-color 0.3s, transform 0.2s;  // Suaviza el cambio de color y añade efecto al presionar
+
+        &:hover {
+            background-color: #e63900;  // Oscurece el botón al pasar el mouse
+        }
+
+        &:active {
+            transform: scale(0.98);  // Efecto de presión al clickear
+        }
     }
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+  
+
+/* Media queries para tabletas */
+@media (max-width: 480px) {
+  
+  }

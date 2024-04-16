@@ -1,14 +1,22 @@
 /* Navbar.css */
 .navbar {
-    position: absolute;
+    background-color: #B4C8CD;
     top: 0;
     z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
     color: rgb(0, 0, 0);
     overflow: hidden; /* Asegura que el pseudo-elemento no se salga de los bordes */
+    .logo{
+        width: 50px;
+        .logo-img{
+            width: 100%;
+        }
+    }
 }
 
 .navbar::before {
@@ -52,7 +60,7 @@
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     margin: 5px;
     transition: all 0.3s ease;
 }
@@ -62,8 +70,8 @@
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 3vh;
+        height: auto;
+        top: 4vh;
         background-color: #333;
         display: flex;
         flex-direction: column;
