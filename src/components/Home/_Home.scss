@@ -47,13 +47,35 @@
     transition: all 0.35s;
   }
 }
-
-
 /* Media queries para tabletas */
-@media (max-width: 480px) {
+@media (max-width: 485px) {
+  .home-container{
+      height: 100vh;
+      background-size: 100%;
+      background-attachment: fixed;
+  }
+}
+/* Media queries para tabletas */
+@media (max-width: 485px) {
     .home-container{
         height: 100vh;
         background-size: 400%;
         background-attachment: fixed;
     }
   }
+  /* Media queries para tabletas */
+@media (max-width: 425px) {
+  .home-container{
+      height: 100vh;
+      background-size: 400%;
+      background-attachment: fixed;
+  }
+}
+/* Media queries para tabletas */
+@media (max-width: 325px) {
+  .home-container{
+      height: 100vh;
+      background-size: 400%;
+      background-attachment: fixed;
+  }
+}
